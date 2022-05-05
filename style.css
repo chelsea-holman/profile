@@ -1,0 +1,99 @@
+img {
+  width: 10rem;
+  border-radius: 50%;
+}
+
+body {
+  background-color: #ebddd2;
+  color: #cd8f5f;
+  font-size: 16px;
+  line-height: 1rem;
+  font-family: "Montserrat", sans-serif;
+}
+h1 {
+  font-size: 26px;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+h1, h2 {
+  color: #524833;
+  font-family: "Montserrat", sans-serif;
+  line-height: 2rem;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #417D7A;
+  font-weight: 500;
+  font-size: 18px;
+}
+a:hover{
+  color: #524833;
+  transition: color 0.5s ease;
+}
+
+.container {
+  width: 800px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+  justify-content: center;
+  text-align: center;
+}
+
+.card {
+  background-color: antiquewhite;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.card li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 5px;
+}
+
+.card ul {
+  padding: 0;
+}
+
+.fa-brands {
+  font-size: 25px;
+}
+
+.btn{
+  background-color: #417D7A;
+  color: #ebddd2;
+  border-radius: 3px;
+  padding: 10px 15px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.btn:hover {
+  color: #524833;
+  transition: color 0.5s ease;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
